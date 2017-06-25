@@ -1,0 +1,190 @@
+#register-form {
+    /*background:#fff;*/
+    border: 1px solid #2C6081;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 350px;
+    font-family:Lato, arial, sans-serif;
+}
+
+.form-content{
+    padding-top: 200px;
+}
+
+.fields{
+    border:none;
+}
+
+#register-form .fieldgroup{
+    padding-bottom: 10%;
+}
+
+#register-form .checkarea{
+    padding-bottom: 10%;
+    padding-left: 30%;
+}
+
+#register-form .checkslabel{
+    padding-bottom: 1%;
+    padding-left: 30%;
+}
+
+#register-form .fieldgroup input[type=text]{
+    margin: 10px 0;
+    height: 40px;
+    width:100%;
+    border:solid #3D86B4 1px;
+    border-radius:3px;
+    padding-left:10px;
+    margin-left:10px;
+}
+
+#register-form .fieldgroup input[type=radio] {
+    width: 10%;
+    display: inline-block;
+    clear: none;
+    margin:10px 10px 0
+
+}
+
+
+.eloculto {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.NOeloculto {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    display: block;
+}
+
+input[type="radio"]:checked ~ .eloculto{
+    position: relative;
+    opacity: 1;
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 25px;
+    overflow: scroll;
+    border: 1px;
+}
+
+#register-form .submit {
+
+    display: block;
+    text-align: center;
+    transform: scale(1);
+    margin-top: 10px;
+    padding-left: 15px;
+    margin-left: 60px;
+    width: 75%;
+    height: 40px !important;
+    background: #7BA6C0;
+    color: #fff;
+    font-weight: bolder;
+    border: solid #2C6081 2px;
+    border-radius: 3px;
+}
+
+
+
+#register-form .fieldgroup label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    font-weight:500;
+    padding: 0;
+    text-align: left;
+}
+
+#ajaxtask-form{
+    border-top: 1px solid #2C6081;
+    /* border-radius: 15px 15px 15px 15px; */
+    width: auto;
+    height: 150px;
+    display: block;
+}
+
+.fieldgroupAjax {
+    margin: 10px 0;
+    height: 40px;
+    margin-left:10px;
+}
+
+#ajaxtask-form .fieldgroupAjax input[type=text]{
+    display: inline-block;
+    margin: 10px 0;
+    height: 40px;
+    border:solid #3D86B4 1px;
+    border-radius:3px;
+    padding-left:10px;
+}
+
+#ajaxtask-form .fieldgroupAjax input[type=button]{
+    display: inline-block;
+    text-align: center;
+    transform: scale(1);
+    height: 40px !important;
+    background: #7BA6C0;
+    color: #fff;
+    font-weight: bolder;
+    border: solid #2C6081 2px;
+    border-radius: 3px;
+}
+
+#listaTareas{
+    list-style-type: none;
+    display: block;
+    padding-top: 25px;
+}
+
+.tarea{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.completed{
+    border: 1px solid #2C6081;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #478057;
+}
+
+.uncompleted{
+    border: 1px solid #2C6081;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #d36d74;
+}
+
+.complete-button{
+    margin:10px;
+    float: left;
+}
+
+
+.taskDescription{
+    display: inline;
+    position: relative;
+    margin-left:50px;
+    padding-left: 25px;
+    width:100%;
+    max-width: 300px;
+}
+
+.delete-button{
+    float: right;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
